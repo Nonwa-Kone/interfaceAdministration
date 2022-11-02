@@ -1,6 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -9,43 +9,76 @@ body{
 }
 
 .container{
+    margin-top: 20px ;
     background: white;
     padding: 10px 50px;
     font-size: 18px;
     font-weight: 400;
+    width: 600px;
 }
 
-a {
-    text-decoration: none;
+.container h1{
+    color: blue;
+    font-size: 26px;
+    margin-bottom: 50px;
+    /* font-weight: bolder; */
 }
 
-.btn a{
-    color: black;
+form .form-group{
+    margin-bottom: 10px;
 }
 
-.btn-primary{
-    background: blue!important;
+form .form-group label{
+    margin-bottom: 10px;
 }
 
-.btn-danger{
-    background: red!important;
+form .form-group input[type="text"]{ 
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+    border-radius: 0;
 }
 
-.btn-warning{
-    background: orange!important;
-}
-
-table{
-    text-align: justify;
-}
-
-table thead{
-    color: gray;
+form .form-group input[type="text"]:focus, input[type="text"]:valid{
+    color: blue;
     font-size: 20px;
 }
 
-table tbody{
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
+form .form-group select{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid blue!important;
+}
+
+
+form .form-group select:valid{
+    color: blue;
+    font-size: 20px;
+}
+
+form .form-group select:focus{
+    box-shadow: none;
+}
+
+form button {
+    width: 100%;
+    background: blue!important;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.alert-success{
+    background: rgba(3, 28, 250, 0.593)!important;
+    color: white;
+}
+
+.alert-danger{
+    background: rgba(255, 0, 0, 0.416)!important;
+    color: white;
+}
+
+a{
+    color: blue;
+    margin-top: 10px;
 }
