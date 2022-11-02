@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(216, 216, 255);
+}
+
+.container{
+    background: white;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn a{
+    color: black;
+}
+
+.btn-primary{
+    background: blue!important;
+}
+
+.btn-danger{
+    background: red!important;
+}
+
+.btn-warning{
+    background: orange!important;
+}
+
+table{
+    text-align: justify;
+}
+
+table thead{
+    color: gray;
+    font-size: 20px;
+}
+
+table tbody{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
